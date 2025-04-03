@@ -1,0 +1,16 @@
+.main__contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    display:grid;
+}
+
+.Submit{
+    background-color: black;
+    color: white;
+    border: none;
+}
