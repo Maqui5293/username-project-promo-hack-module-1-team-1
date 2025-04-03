@@ -1,19 +1,20 @@
 h2 {
   font-family: "Crimson Text", serif;
-  font-size: 1.5rem;
+  font-size: 24px;
 }
 
 .features {
-  padding: 4.75rem 1.25rem 1.75rem;
+  padding: 76px 20px 28px;
 }
 
 .feature {
   &--1,
   &--2 {
     .feature__img {
-      width: 20.9rem;
+      text-align: center;
+      width: 334.4px;
       height: auto;
-      margin-top: 1.875rem;
+      margin-top: 30px;
     }
   }
 
@@ -23,17 +24,49 @@ h2 {
       background: #212529;
       color: white;
       text-decoration: none;
-      padding: 13px 45.5px 10px 44.5px;
-      border-radius: 0.3125rem;
+      padding: 0.8125rem 2.8438rem 0.625rem 2.7813rem;
+      border-radius: 5px;
+      font-size: 20px;
     }
 
     .feature__text {
-      margin: 0.9375rem 0 0.75rem 0;
+      margin: 15px 0 12px 0;
       color: #21252980;
     }
 
     .feature__title {
-      margin-top: 0.875rem;
+      margin-top: 14px;
+    }
+  }
+}
+
+@media all and (min-width: 90rem) {
+  .feature {
+    &--1 {
+      display: flex;
+      align-items: center;
+      gap: 80px;
+      padding: 0 11.875rem 0 7.8125rem;
+      .feature__title {
+        width: 20ch;
+      }
+    }
+
+    &--2 {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      padding-left: 8rem;
+      padding-right: 12.3125rem;
+      gap: 5rem;
+    }
+
+    &--1,
+    &--2 {
+      .feature__img {
+        width: 37.5rem;
+        height: auto;
+      }
     }
   }
 }
