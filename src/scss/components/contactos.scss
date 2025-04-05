@@ -1,16 +1,44 @@
 .main__contacto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display:flex;
+    flex-direction:column;  
+    justify-content:center;
+    align-items:center;
 }
 
 .form{
-    display:grid;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.Submit{
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px black;
+    width: 50%;
+}
+
+textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px black;
+    width: 50%;
+  
+}
+
+button{
+    padding: 10px;
     background-color: black;
     color: white;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+   
+}
+
+map{
+    display: flex;
+    height: 100%;
 }
