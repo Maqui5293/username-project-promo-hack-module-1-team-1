@@ -1,44 +1,101 @@
-.main__contacto{
-    display:flex;
-    flex-direction:column;  
-    justify-content:center;
-    align-items:center;
+.main__contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.form{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  gap: 5px;
 }
 
-input{
-    padding: 10px;
-    border-radius: 5px;
-    border: solid 1px black;
-    width: 50%;
+.Tittle {
+  font-family: Crimson text;
+  font-size: 30px;
 }
 
-textarea{
-    padding: 10px;
-    border-radius: 5px;
-    border: solid 1px black;
-    width: 50%;
-  
+.p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
 }
 
-button{
-    padding: 10px;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 50%;
-   
+.form {
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
 }
 
-map{
-    display: flex;
-    height: 100%;
+.nombre {
+  width: 300%;
+  height: 20px;
+  border: solid black 1px;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: #eee;
+}
+
+.email {
+  width: 300%;
+  height: 20px;
+  border: solid black 1px;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: #eee;
+}
+
+.Mensaje {
+  width: 300%;
+  height: 50px;
+  resize: none;
+  border: solid black 1px;
+  border-radius: 10px;
+  margin-top: 5px;
+  background-color: #eee;
+}
+.Submit {
+  background-color: #212529;
+  color: white;
+  border: solid black 1px;
+  font-size: 15px;
+  border-radius: 10px;
+  height: 30px;
+  width: 300%;
+}
+
+.map {
+  display: flex;
+  width: 55%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .p {
+    display: none;
+  }
+
+  .map {
+    margin: 12px 12px 0 0;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .nombre,
+  .email,
+  .Mensaje,
+  .Submit {
+    width: 100%;
+  }
 }
