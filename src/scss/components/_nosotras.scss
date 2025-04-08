@@ -1,52 +1,52 @@
-h2 {font-family: "Crimson Text", serif;
-    font-size: 24px;
+h2 {
+  font-family: "Crimson Text", serif;
+  font-size: 24px;
 }
-  
+
 h3 {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    color: #212529c0;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #212529c0;
 }
 
-.main__nosotras{
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    gap: 40px;
-    margin: 20px 20vw 40px 20vw;
+.main__nosotras {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 40px;
+  margin: 20px 20vw 40px 20vw;
 
-    @media (min-width: 768px) {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        margin: 14vh 4vw 14vh 5vw;
-    }
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 14vh 4vw 14vh 5vw;
+  }
 }
 
 .main__nosotras-h2 {
-    text-align: center;
-    @media (min-width: 768px) {
-        grid-column: span 5;
-    }
+  text-align: center;
+  @media (min-width: 768px) {
+    grid-column: span 5;
+  }
 }
 
-.main__nosotras-h2text{
-    @media (min-width: 768px) {
+.main__nosotras-h2text {
+  @media (min-width: 768px) {
     font-size: 40px;
-    }
+  }
 }
 .main__nosotras-div {
-box-shadow: 6px 8px 24px rgba(0, 0, 0, 0.25);
-height: 40vh;
-width: 60vw;
-display: grid;
-align-items: left;
-gap: 10px;
-padding: 5vh 10vw 5vh 10vw;
+  box-shadow: 6px 8px 24px rgba(0, 0, 0, 0.25);
+  height: 35vh;
+  width: 60vw;
+  display: grid;
+  align-items: left;
+  gap: 10px;
 
-@media (min-width: 768px) {
-width: 15vw;
-height: 35vh;
-padding: 1vh 0 0 1.5vw;
-}
+  @media (min-width: 768px) {
+    width: 15vw;
+    height: 35vh;
+    /*padding: 1vh 0 0 1.5vw;*/
+  }
 }
