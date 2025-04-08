@@ -14,8 +14,9 @@ h3 {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
+  text-align: center;
   gap: 40px;
-  margin: 20px 20vw 40px 20vw;
+  margin: 20px 15vw 20px 15vw;
 
   @media (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -38,15 +39,22 @@ h3 {
 }
 .main__nosotras-div {
   box-shadow: 6px 8px 24px rgba(0, 0, 0, 0.25);
-  height: 35vh;
-  width: 60vw;
+  height: 50vh;
+  width: 70vw;
   display: grid;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
 
   @media (min-width: 768px) {
     width: 15vw;
-    height: 35vh;
-    /*padding: 1vh 0 0 1.5vw;*/
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+}
+
+.main__nosotras img {
+  max-width: 200px;
 }
