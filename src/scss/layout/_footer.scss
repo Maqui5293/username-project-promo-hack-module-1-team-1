@@ -1,23 +1,34 @@
 .footer {
-    background-color: #74c69d;
-    color: white;
-    width: 100%;
-    height: 125px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    font-size: 20px;
-    padding: 30px 0 30px 0;
+  background-color: #74c69d;
+  color: white;
+  width: 100%;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  padding: 30px 0 30px 0;
 
-    @media (min-width: 768px) {
-        flex-direction: row;
-        padding: 0 9vw 0 9vw;
-        gap: 54vw;
-    }
+  @media (min-width: 768px) {
+    flex-direction: row;
+    padding: 0 9vw 0 9vw;
+    gap: 54vw;
+  }
 }
 
 .footer__icons {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.main__nosotras-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main__nosotras-div img {
+  max-height: 176px;
 }
