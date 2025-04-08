@@ -23,8 +23,9 @@
 
 .p {
   font-family: "Work Sans", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.6;
+  text-align: center;
   color: #333;
 }
 
@@ -34,16 +35,9 @@
   gap: 5px;
 }
 
-.nombre {
-  width: 300%;
-  height: 20px;
-  border: solid black 1px;
-  border-radius: 5px;
-  margin-top: 5px;
-  background-color: #eee;
-}
-
-.email {
+.nombre,
+.email,
+.Mensaje {
   width: 300%;
   height: 20px;
   border: solid black 1px;
@@ -53,14 +47,11 @@
 }
 
 .Mensaje {
-  width: 300%;
   height: 50px;
   resize: none;
-  border: solid black 1px;
   border-radius: 10px;
-  margin-top: 5px;
-  background-color: #eee;
 }
+
 .Submit {
   background-color: #212529;
   color: white;
